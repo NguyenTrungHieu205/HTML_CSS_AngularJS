@@ -1,0 +1,32 @@
+<div class="container">
+    <h4>QUẢN LÝ THỂ LOẠI</h4>
+      <form>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label" >NAME</label>
+            <input type="text" class="form-control" ng-model="form_TheLoai.tenTheLoai">
+          </div>
+          <button type="submit" class="btn btn-primary" ng-click="addTL($event)">ADD</button>
+          <button type="submit" class="btn btn-primary" ng-click="updatTL($event)">UPDATE</button>
+        </form>
+  
+      <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">ID</th>
+              <th scope="col">Name</th>
+              <th scope="col">FUNCTION</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="tl in mangTheLoai">
+              <th>{{tl.id}}</th>
+              <td>{{tl.tenTheLoai}}</td>
+              <td>
+                <a href="#dentail#!{{tl.id}}" ng-click="dentailTL($event, $index)">DENTAIL</a> 
+                <a href="" ng-click="removeTL($event, $index)">REMOVE</a>
+              </td>
+            </tr>
+            
+          </tbody>
+        </table>
+  </div>

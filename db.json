@@ -1,0 +1,178 @@
+{
+  "mangDongHo": [
+    {
+      "id": "SP8",
+      "ten": "Apple Watch Seri 3 | Chính Hãng VNA",
+      "gia": 19000000,
+      "img": "aw1.jpg",
+      "theLoai": "Đồng hồ"
+    },
+    {
+      "id": "SP9",
+      "ten": "Apple Watch Seri 3 | Chính Hãng VNA",
+      "gia": 19000000,
+      "img": "aw2.jpg",
+      "theLoai": "Đồng hồ"
+    },
+    {
+      "id": "SP10",
+      "ten": "Apple Watch Seri 3 | Chính Hãng VNA",
+      "gia": 19000000,
+      "img": "aw3.jpg",
+      "theLoai": "Đồng hồ"
+    },
+    {
+      "id": "SP11",
+      "ten": "Apple Watch Seri 3 | Chính Hãng VNA",
+      "gia": 19000000,
+      "img": "aw4.jpg",
+      "theLoai": "Đồng hồ"
+    },
+    {
+      "id": "SP12",
+      "ten": "Apple Watch Seri 3 | Chính Hãng VNA",
+      "gia": 19000000,
+      "img": "aw5.jpg",
+      "theLoai": "Đồng hồ"
+    },
+    {
+      "id": "SP13",
+      "ten": "Apple Watch Seri 3 | Chính Hãng VNA",
+      "gia": 19000000,
+      "img": "aw6.jpg",
+      "theLoai": "Đồng hồ"
+    }
+  ],
+  "mangSanPham": [
+    {
+      "id": "SP1",
+      "ten": "Iphone 13 Pro Max | Chính Hãng VNA",
+      "gia": 19000000,
+      "img": "a2.jpg",
+      "theLoai": "Điện thoại"
+    },
+    {
+      "id": "SP2",
+      "ten": "Iphone 13 Pro Max | Chính Hãng VNA",
+      "gia": 19000000,
+      "img": "a3.jpg",
+      "theLoai": "Điện thoại"
+    },
+    {
+      "id": "SP3",
+      "ten": "Iphone 13 Pro Max | Chính Hãng VNA",
+      "gia": 19000000,
+      "img": "a4.jpg",
+      "theLoai": "Điện thoại"
+    },
+    {
+      "id": "SP5",
+      "ten": "Iphone 13 Pro Max | Chính Hãng VNA",
+      "gia": 19000000,
+      "img": "a6.jpg",
+      "theLoai": "Điện thoại"
+    },
+    {
+      "id": "SP6",
+      "ten": "Iphone 13 Pro Max | Chính Hãng VNA",
+      "gia": 19000000,
+      "img": "a7.jpg",
+      "theLoai": "Điện thoại"
+    },
+    {
+      "id": "SP7",
+      "ten": "Iphone 13 Pro Max | Chính Hãng VNA",
+      "gia": 19000000,
+      "img": "a5.jpg",
+      "theLoai": "Điện thoại"
+    },
+    {
+      "id": "FP6TZyJ",
+      "ten": "Iphone 11 Pro Max | Chính Hãng VNA",
+      "gia": "124356789",
+      "img": "a2.jpg",
+      "theLoai": "Điện thoại"
+    },
+    {
+      "id": "BMDAr8i",
+      "ten": "Apple Watch",
+      "gia": "3243243",
+      "img": "aw2.jpg",
+      "theLoai": "Đồng hồ"
+    },
+    {
+      "id": "Dht6S2T",
+      "ten": "LapTop HP",
+      "gia": "20000000",
+      "img": "laptop-hp-gaming-victus-15-fa0031dx-6503849-6.jpg",
+      "theLoai": "Laptop"
+    }
+  ],
+  "mangTheLoai": [
+    {
+      "id": "TL1",
+      "tenTheLoai": "Điện thoại"
+    },
+    {
+      "id": "kCYcWHE",
+      "tenTheLoai": "Đồng hồ"
+    },
+    {
+      "id": "cEUTj2S",
+      "tenTheLoai": "Laptop"
+    },
+    {
+      "id": "-lNoWVW",
+      "tenTheLoai": "màn hình"
+    }
+  ],
+  "mangNguoiDung": [
+    {
+      "id": "1",
+      "ten": "hieu",
+      "email": "hieuntph23322@fpt.edu.vn",
+      "matKhau": "123456",
+      "nhapLaiMatKhau": "123456"
+    },
+    {
+      "id": "7QqLdQf",
+      "ten": "ewtr",
+      "email": "dshfg@gmail.com",
+      "matKhau": "234",
+      "nhapLaiMatKhau": "213"
+    },
+    {
+      "id": "7CNRDjX",
+      "ten": "Mạnh",
+      "email": "trunghieunguyen673@gmail.com",
+      "matKhau": "123456",
+      "nhapLaiMatKhau": "123456"
+    },
+    {
+      "id": "P2efO-R",
+      "ten": "minh",
+      "email": "minh@gmail.com",
+      "matKhau": "12",
+      "nhapLaiMatKhau": "12"
+    },
+    {
+      "id": "jFVcPQG",
+      "ten": "minh",
+      "email": "minh@gmail.com",
+      "matKhau": "123456",
+      "nhapLaiMatKhau": "123456"
+    }
+  ],
+  "mangGioHang": [
+    {
+      "id": "1",
+      "ten": "Apple Watch Seri 3 | Chính Hãng VNA",
+      "gia": "124356789"
+    },
+    {
+      "id": "2Atw5rv",
+      "ten": "",
+      "gia": ""
+    }
+  ]
+}

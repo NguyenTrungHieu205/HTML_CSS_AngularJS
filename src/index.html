@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myModule">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cellphone H</title>
+    <link rel="stylesheet" href="../css/custum/header.css">
+    <link rel="stylesheet" href="../css/custum/trangChu.css">
+    <link rel="stylesheet" href="../css/custum/dangNhap.css">
+    <link rel="stylesheet" href="../css/custum/quenMatKhau.css">
+    <link rel="stylesheet" href="../css/custum/GioiThieu_SuKien.css">
+    <link rel="stylesheet" href="../css/custum/sanPham.css">
+    <link rel="stylesheet" href="../css/custum/trangCuaToi.css">
+    <link rel="stylesheet" href="../css/custum/gioHang.css">
+    <link rel="stylesheet" href="../css/custum/dentailSanPham.css">
+    <link rel="stylesheet" href="../css/plugin/bootstrap.min.css">
+</head>
+<body>
+    <header ng-include="'./layout/header.html'"></header>
+
+    <section ng-view ></section>
+
+    <footer ng-include="'./layout/footer.html'"></footer>
+
+    <script src="../lib/angular.min.js"></script>
+    <script src="../lib/angular-route.js"></script>
+    <script src="../src/config/api.js"></script>
+    <script src="./controller/dulieu-controller.js"></script>
+    <script src="./controller/dangNhap-controller.js"></script>
+    <script src="../js/custum/quenMatKhau.js"></script>
+    <script src="./route.js"></script>
+    <script src="../js/plugin/bootstrap.bundle.js"></script>
+    <script src="../js/plugin/bootstrap.min.js"></script>
+</body>
+</html>

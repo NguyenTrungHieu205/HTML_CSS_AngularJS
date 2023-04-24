@@ -1,0 +1,28 @@
+#logo-wed{
+    padding-top: 10px;
+    color: red;
+}
+#name-header{
+    padding-right: 23px;
+}
+#icon a {
+    text-decoration: none;
+    color: black;
+}
+#title{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+#buttonDN{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+#loadDN{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+#giohang{
+    margin-top: 10px;
+    background-color: #fff;
+    color: black;
+}

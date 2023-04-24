@@ -1,0 +1,18 @@
+#cardSP{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+#tenSP{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+#giaSP{
+    color: red;
+    font-weight: bold;
+}
+#icon-hot{
+    width: 100px;
+}
+#card-SP{
+    border: none;
+}

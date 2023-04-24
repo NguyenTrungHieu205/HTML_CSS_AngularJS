@@ -1,0 +1,46 @@
+<div class="container"> 
+    <div class="card"> 
+     <div class="container-fliud"> 
+      <div class="wrapper row"> 
+       <div class="preview col-md-6"> 
+        <div class="preview-pic tab-content" id="hinhAnh"> 
+         <div class="tab-pane active" id="pic-1"><img src="../../assets/{{sanPham.img}}" alt="" ng-model="img">
+         </div> 
+        </div> 
+       </div> 
+       <div class="details col-md-6" id="thongtin"> 
+        <h3 class="product-title" ng-model="ten">{{sanPham.ten}}</h3> 
+        <div class="rating"> 
+         <div class="stars"> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> 
+         </div> <span class="review-no">123 đánh giá</span> 
+        </div> 
+        <h4 class="price" ng-model="gia">Giá bán: {{sanPham.gia}}</h4> 
+        <p class="vote"><strong>91%</strong> of người mua hài lòng với sản phẩm này <strong>(87 bình chọn)</strong>
+        </p> 
+              
+        <div class="action"> 
+            <button type="button" class="btn btn-danger"><a href="#muaNgay/{{sanPham.id}}">Mua Ngay</a></button>
+            <button type="button" class="btn btn-warning" ng-click="add($event, $index)">Thêm vào giỏ hàng</button>
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div>
+
+    <div class="row">
+        <h4 id="tenqc">CHUYÊN TRANG THƯƠNG HIỆU</h4>
+        <div class="col-3">
+          <img src="../../assets/bn1.jpg" alt="" id="bn" />
+        </div>
+        <div class="col-3">
+          <img src="../../assets/bn3.png" alt="" id="bn" />
+        </div>
+        <div class="col-3">
+          <img src="../../assets/bn2.png" alt="" id="bn" />
+        </div>
+        <div class="col-3">
+          <img src="../../assets/bn4.png" alt="" id="bn" />
+        </div>
+      </div>
+
+   </div> 

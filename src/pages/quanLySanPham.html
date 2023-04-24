@@ -1,0 +1,52 @@
+<div class="container">
+  <h4>QUẢN LÝ SẢN PHẨM</h4>
+    <form>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label" >NAME</label>
+          <input type="text" class="form-control" ng-model="form_sanPham.ten">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label" >PRICE</label>
+            <input type="text" class="form-control" ng-model="form_sanPham.gia">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label" >IMG</label>
+            <input type="file" class="form-control" id="img" ng-click="getNameIMG()" ng-model="form_sanPham.img">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label" >PRODUCT</label>
+            <select class="form-select" aria-label="Default select example" ng-model="form_sanPham.theLoai">
+              <option value="{{tl.tenTheLoai}}" ng-repeat="tl in mangTheLoai">{{tl.tenTheLoai}}</option>
+            </select>
+          </div>
+        <button type="submit" class="btn btn-primary" ng-click="add($event)">ADD</button>
+        <button type="submit" class="btn btn-primary" ng-click="update($event)">UPDATE</button>
+      </form>
+
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">PRIVE</th>
+            <th scope="col">IMG</th>
+            <th scope="col">PRODUCT</th>
+            <th scope="col">FUNCTION</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="dt in mangSanPham">
+            <th>{{dt.id}}</th>
+            <td>{{dt.ten}}</td>
+            <td>{{dt.gia}}</td>
+            <td><img width="100px" src="../../assets/{{dt.img}}" alt=""> </td>
+            <td>{{dt.theLoai}}</td>
+            <td>
+              <a href="#dentail#!{{dt.id}}" ng-click="dentail($event, $index)">DENTAIL</a> 
+              <a href="" ng-click="remove($event, $index)">REMOVE</a>
+            </td>
+          </tr>
+          
+        </tbody>
+      </table>
+</div>

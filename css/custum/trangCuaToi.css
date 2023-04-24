@@ -1,0 +1,55 @@
+#chuongtrinhuudai{
+    background-color: antiquewhite;
+    border-radius: 15px;
+}
+#chuongtrinh{
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    margin-left: 127px;
+    border-radius: 15px;
+}
+#banner-chuongtrinh{
+    border-radius: 15px;
+    margin: auto;
+    text-align: center;
+    margin-left: 35px;
+}
+#tenChuongTrinh{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    padding-top: 10px;
+}
+#member{
+    border-radius: 15px;
+}
+#avata-member{
+    width: 100px;
+    border-radius: 100px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#name-member{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+#icon{
+    text-align: center;
+    margin: auto;
+    color: brown
+}
+#icon-member{
+    text-align: center;
+    margin: auto;
+    margin-left: 40px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+#menudoc{
+    background-color: aliceblue;
+}
